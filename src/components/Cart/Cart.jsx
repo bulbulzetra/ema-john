@@ -21,7 +21,7 @@ const grandTotal = totalPrice +totalShipping + tax;
       <p>Total Price: {totalPrice}</p>
       <p>Total Shipping: {totalShipping}</p>
       <p>Tax: {tax.toFixed(2)} </p>
-      <h5>Grand Total: {grandTotal.toFixed(2)} </h5>
+      <h5 ><span className="font-extrabold">Grand Total :</span> {grandTotal.toFixed(2)} </h5>
     </div>
   );
 };
